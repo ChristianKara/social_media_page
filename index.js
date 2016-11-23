@@ -71,7 +71,6 @@
 		}
 		//finds links and sources them appropriately
 		if (linkTag) {
-			console.log(linkRegex.exec(data));
 			linkRegex.lastIndex = 0;
 			var address = linkRegex.exec(data);
 			if(address){
