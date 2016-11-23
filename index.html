@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>Social Media</title>
 </head>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -13,7 +13,24 @@
 
 <body>
 
+<div align='center'>
+  <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+    <button type="button" class="btn btn-info btn-secondary allButton active">All</button>
+    <button type="button" class="btn btn-info btn-secondary manualButton active">Manual</button>
+    <button type="button" class="btn btn-info btn-secondary instagramButton active">Instagram</button>
+    <button type="button" class="btn btn-info btn-secondary twitterButton active">Twitter</button>
+  </div>
+  <p>Choose to deselect media.</p>
+</div>
 
+  <div align='center' class='container' id='columns'>
+
+  </div>
+
+  <div align='center'>
+    <button class="btn btn-primary loadMore">Load More...</button>
+    <div class="loader"></div>
+  </div>
 
 </body>
 <script src="jquery-3.1.1.min.js" charset="utf-8"></script>
@@ -23,5 +40,4 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.0/js/bootstrap-select.min.js"></script>
 <script src="https://use.fontawesome.com/9b6beb6b18.js"></script>
 <script src="index.js" charset="utf-8"></script>
-<script src="./basic_slideshow/index.js" charset="utf-8"></script>
 </html>
